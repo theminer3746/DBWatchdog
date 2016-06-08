@@ -1,6 +1,7 @@
 {
     "name": "triamudom/dbwatchdog",
     "description": "Real-time data format monitoring for laravel",
+    "keywords": ["laravel", "monitoring", "error"],
     "homepage": "https://github.com/TriamUdom/DBWatchdog",
     "type": "library",
     "license": "MIT",
