@@ -21,6 +21,8 @@ class DBWatchdogServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->app->make('DBWatchdog', function(){
+            return new DBWatchdog;
+        });
     }
 }
